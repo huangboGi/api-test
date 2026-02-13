@@ -1,0 +1,84 @@
+# IDE 相关
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 日志文件
+./log/*
+logs/
+downloads/
+*.log
+
+# 环境配置
+# config/settings.yml
+.env
+.env.local
+.env.*.local
+.settings.yml
+# Go 特定文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+*.trace
+*.cover
+*.tmp
+*.bak
+
+# 二进制文件
+mystks
+bin/
+dist/
+# config/
+
+# 临时文件
+tmp/
+temp/
+*.temp
+
+# 依赖目录
+vendor/
+node_modules/
+
+# 系统文件
+Thumbs.db
+
+# 编译输出
+*.o
+*.a
+*.lib
+*.app
+
+
+# 本地配置文件
+config.local.yml
+*.local.yml
+*.local.yaml
+*.local.json
+*.local.toml
+
+config/*.yml
+
+# Go 依赖目录
+/vendor/
+
+# Go 工作区文件
+go.work
+
+# 项目特定文件
+/configs/config.yaml
+/configs/config.local.yaml
+
+
+#项目上下文
+project.md
+message_system_with_content_tracking.md
+channel_config_implementation_summary.md
+
+mt6_JavaService/
